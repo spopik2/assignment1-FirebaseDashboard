@@ -36,7 +36,7 @@ function addStickControls(stick){
 function onEditStick(e){
     const key = e.target.dataset.key;
     sessionStorage.setItem('key',key)
-    window.location.assign('update.html')
+    window.location.assign('index.html')
 }
 
 function onDeleteStick(e){
