@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="msapplication-TileColor" content="#c8112e" />
+    <meta name="theme-color" content="#c8112e" />
+    <meta name="description"
+        content="Steve popiks DMIT 2008 assignment 1" />
+    <title>steves sticks</title>
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <script type="module" src="js/write.js"></script>
+</head>
+
+<body>
+    <nav class="content-page-app-bar">
+
+        <div>
+            <img src="static/svg/steve-sticks-logo.svg" alt="Steve's Sticks Logo"
+                with="24">
+
+            <h2>Steve's Sticks</h2>
+
+        </div>
+        <ul class="site-links">
+
+            <li> <a href="index.html">Dashboard</a></li>
+
+
+        </ul>
+
+
+        </li>
+
+    </nav>
+    <header class="page-header">
+        <h1>Add a new stick</h1>
+        <p>This page is used new add new sticks into our inventory</p>
+    </header>
+
+
+    <main>
+
+        <form id="stickForm" class="add-new-stick">
+
+            <div class="stick-image form-control">
+                <div class="display">
+                    <img src="static/images/steve-sticks-1.jpg"
+                        alt="upload your image of a hockey stick" width="50">
+                </div>
+                <label for="stickImage">Select image</label>
+                <input type="file" id="stickImage" style="display:none" class="select-file"
+                    accept=".jpg, .png, .jpeg, .webp">
+            </div>
+
+            <div class="rental-name form-control">
+                <label for="stickTitle">Title</label>
+                <input id="stickTitle" type="text" placeholder="CCM" required>
+            </div>
+            <div class="rental-name form-control">
+                <label for="stickPrice">Price</label>
+                <input id="stickPrice" type="number" placeholder="$" required>
+            </div>
+            <div class="rental-name form-control">
+                <label for="stickHand">Which Hand</label>
+                <input id="stickHand" type="text" placeholder="Left or Right" required>
+            </div>
+
+            <div class="submit-button form-control">
+                <button type="submit">Submit</button>
+                <button type="button" onclick="window.location.assign('index.html')">Exit</button>
+            </div>
+
+        </form>
+
+    </main>
+</body>
+
+</html>

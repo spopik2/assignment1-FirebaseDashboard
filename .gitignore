@@ -1,0 +1,19 @@
+#  Node Modules
+/node_modules
+
+# firebase config file
+/src/js/libs/firebaseConfig-old.js
+
+#.env
+.env
+.env-template
+
+# Parcel Development Files
+/.parcel-cache
+/dist
+/public
+
+# OS Files
+.DS_Store
+
+
